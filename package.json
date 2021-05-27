@@ -1,0 +1,19 @@
+{
+  "name": "ab-utils",
+  "version": "0.0.1",
+  "description": "Abstractly's collection of JavaScript utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matterofabstract/ab-utils.git"
+  },
+  "author": "Abstractly, LLC.",
+  "license": "BSD-4-Clause",
+  "bugs": {
+    "url": "https://github.com/matterofabstract/ab-utils/issues"
+  },
+  "homepage": "https://github.com/matterofabstract/ab-utils#readme"
+}
