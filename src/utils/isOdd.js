@@ -5,6 +5,4 @@
  * >>> true
  *
  */
-const isOdd = (x) => x & 1;
-
-export default isOdd;
+export const isOdd = (x) => x & 1;

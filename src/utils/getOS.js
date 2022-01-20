@@ -7,7 +7,7 @@
  * Returns:
  *   macOS
  */
-const getOS = () => {
+export const getOS = () => {
   const userAgent = window.navigator.userAgent,
     platform = window.navigator.platform,
     macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
@@ -30,5 +30,3 @@ const getOS = () => {
 
   return os;
 };
-
-export default getOS;

@@ -11,7 +11,7 @@
  *   false
  *
  */
-const isTodayOrFuture = (jsDateString) => {
+export const isTodayOrFuture = (jsDateString) => {
   // Reset hours as we want to include the entire day.
   // Get UNIX timestamp format by multiply by 1000. Working in milliseconds, not seconds.
   const today = new Date().setHours(0, 0, 0, 0) * 1000;
@@ -22,5 +22,3 @@ const isTodayOrFuture = (jsDateString) => {
     return false;
   }
 };
-
-export default isTodayOrFuture;

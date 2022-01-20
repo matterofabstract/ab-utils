@@ -1,8 +1,9 @@
-export { default as getMonthNameFromDateString } from './utils/getMonthNameFromDateString';
-export { default as getMonthNumberFromMonthName } from './utils/getMonthNumberFromMonthName';
-export { default as getOS } from './utils/getOS';
-export { default as getSystemInfo } from './utils/getSystemInfo';
-export { default as isDev } from './utils/isDev';
-export { default as isEven } from './utils/isEven';
-export { default as isOdd } from './utils/isOdd';
-export { default as isTodayOrFuture } from './utils/isTodayOrFuture';
+export { getMonthNameFromDateString } from './utils/getMonthNameFromDateString';
+export { getMonthNumberFromMonthName } from './utils/getMonthNumberFromMonthName';
+export { getOS } from './utils/getOS';
+export { getSystemInfo } from './utils/getSystemInfo';
+export { isDev } from './utils/isDev';
+export { isEven } from './utils/isEven';
+export { isOdd } from './utils/isOdd';
+export { isTodayOrFuture } from './utils/isTodayOrFuture';
+export { isTodayOrFuture } from './utils/isTodayOrFuture';

@@ -1,6 +1,6 @@
 const { app } = require('electron');
 
-const getSystemInfo = () => ({
+export const getSystemInfo = () => ({
   // 'darwin', 'freebsd', 'linux', 'sunos' or 'win32'
   platform: process.platform,
 
@@ -9,5 +9,3 @@ const getSystemInfo = () => ({
   // On Linux -> '4.15.0-45-generic'
   version: process.getSystemVersion(),
 });
-
-export default getSystemInfo;

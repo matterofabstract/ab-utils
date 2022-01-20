@@ -7,7 +7,7 @@
  *   3
  *
  */
-const getMonthNumberFromMonthName = (mon) => {
+export const getMonthNumberFromMonthName = (mon) => {
   var d = Date.parse(mon + '1, 2020');
   if (!isNaN(d)) {
     return new Date(d).getMonth() + 1;
@@ -15,4 +15,3 @@ const getMonthNumberFromMonthName = (mon) => {
   return -1;
 };
 
-export default getMonthNumberFromMonthName;

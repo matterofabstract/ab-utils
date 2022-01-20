@@ -5,6 +5,4 @@
  * >>> false
  *
  */
-const isEven = (x) => !(x & 1);
-
-export default isEven;
+export const isEven = (x) => !(x & 1);

@@ -7,7 +7,7 @@
  *   Mar
  *
  */
-const getMonthNameFromDateString = (dateStr, abbreviated = false) => {
+export const getMonthNameFromDateString = (dateStr, abbreviated = false) => {
   const monthNames = [
     'January',
     'February',
@@ -29,5 +29,3 @@ const getMonthNameFromDateString = (dateStr, abbreviated = false) => {
     return monthNames[jsDateObj.getMonth()];
   }
 };
-
-export default getMonthNameFromDateString;
