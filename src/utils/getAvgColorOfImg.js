@@ -4,6 +4,7 @@
  * USAGE: getAvgColorOfImg('<url to image file>')
  */
 export const getAvgColorOfImg = (u, i = new Image) => {
+  let c;
   i.crossOrigin = '';
   i.src = u;
   i.onload = e => {
