@@ -1,6 +1,6 @@
 {
   "name": "@matterofabstract/ab-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Abstractly's collection of JavaScript utilities",
   "main": "index.js",
   "scripts": {
