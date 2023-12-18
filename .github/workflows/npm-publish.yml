@@ -13,7 +13,7 @@ jobs:
           node-version: "20" 
           cache: 'npm'
 
-      - run: npm ci
+      - run: npm i
 
       - name: Publish to npm
         uses: JS-DevTools/npm-publish@v3
